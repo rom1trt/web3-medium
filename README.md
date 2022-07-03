@@ -99,37 +99,35 @@ To get a local copy up and running follow these simple example steps.
 
 ## Installation
 
-### Local Installation
-
-#### 1. Clone the repository
+### 1. Clone the repository
 
 `git clone https://github.com/rom1trt/web3-medium.git`
 
-#### 2. Install Dependencies (Yarn)
+### 2. Install Dependencies (Yarn)
 
 `yarn install`
 
-#### 3. Launch Frontend locally (localhost)
+### 3. Sign up/Log in on [Alchemy](https://www.alchemy.com/) and create a new project with Polygon Mumbai as network
 
-`yarn start`
+### 4. Sign up/Log in on [Etherscan](https://etherscan.io/) and create a new API Key
 
-### Installation Polygon Testnet (Mumbai)
+### 5. Sing up/Log in on [Moralis](https://moralis.io/) and create a new dApp (network: Polygon Testnet Mumbai)
 
-#### 1. Repeat steps 1-2
+### 6. Add your Alchemy & Etherscan API keys and Metamask private key in the .env file
 
-#### 2. Sign up/Log in on [Alchemy](https://www.alchemy.com/) and create a new project with Polygon Mumbai as network
+### 7. Add the Dapp URL & Application ID (your dApp details on Moralis) in src/index.js
 
-#### 2.5. Sign up/Log in on [Etherscan](https://etherscan.io/) and create a new API Key
-
-#### 3. Add your Alchemy & Etherscan API keys and Metamask private key in the .env file
-
-#### 4. Refresh environment variables
+### 8. Refresh environment variables
 
 `source .env`
 
-#### 5. Deploy smart contracts on Mumbai Testnet from the terminal
+### 9. Deploy smart contracts on Mumbai Testnet from the terminal
 
 `npx hardhat run src/backend/scripts/deploy.js --network mumbai`
+
+### 10. Launch Frontend locally (localhost)
+
+`yarn start`
 
 ### Features
 
