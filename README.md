@@ -66,9 +66,10 @@ MY STORIES
 ````
 <img align=top src="img/MyStories.png" width="450" height="260"/>
 
-````
+```
 Publish
-````
+```
+
 <img align=top src="img/Publish.png" width="480" height="270"/>
 
 ### Built With
@@ -118,7 +119,9 @@ To get a local copy up and running follow these simple example steps.
 
 #### 2. Sign up/Log in on [Alchemy](https://www.alchemy.com/) and create a new project with Polygon Mumbai as network
 
-#### 3. Add your Alchemy API key and Metamask private key in the .env file
+#### 2.5. Sign up/Log in on [Etherscan](https://etherscan.io/) and create a new API Key
+
+#### 3. Add your Alchemy & Etherscan API keys and Metamask private key in the .env file
 
 #### 4. Refresh environment variables
 
