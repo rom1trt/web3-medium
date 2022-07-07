@@ -35,8 +35,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#installations">Installations</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#features">Features</a></li>
       </ul>
     </li>
@@ -74,11 +73,10 @@ Publish
 
 ### Built With
 
-- [Solidity](https://www.solidity.io/)
-- [React](https://reactjs.org/docs/getting-started.html)
-- [Ethers.js](https://docs.ethers.io/v5/)
-- [Hardhat](https://hardhat.org/)
-- [IPFS](https://ipfs.io/)
+* [![Solidity](https://img.shields.io/badge/solidity-grey?style=for-the-badge&logo=solidity)](https://www.solidity.io/)
+* [![React](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/docs/getting-started.html)
+* [![Hardhat](https://img.shields.io/badge/hardhat-faf100?style=for-the-badge&logo=Hardhat&logoColor=61DAFB)](https://hardhat.org/)
+* [![IPFS](https://img.shields.io/badge/ipfs-18afd3?style=for-the-badge&logo=ipfs&logoColor=61DAFB)](https://ipfs.io/)
 
 <!-- GETTING STARTED -->
 
@@ -87,13 +85,16 @@ Publish
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Requirements
+### Prerequisites 
 
-- [Install Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)
-- [Install Metamask](https://metamask.io/)
-- Install Hardhat `npm install hardhat --save-dev hardhat`
+* [![Yarn](https://img.shields.io/badge/yarn-blue?style=for-the-badge&logo=yarn&logoColor=61DAFB)](https://classic.yarnpkg.com/lang/en/docs/install/)
+* [![Metamask](https://img.shields.io/badge/metamask-orange?style=for-the-badge&logo=metamask&logoColor=61DAFB)](https://metamask.io/)
+* [![Hardhat](https://img.shields.io/badge/hardhat-faf100?style=for-the-badge&logo=hardhat&logoColor=61DAFB)](https://hardhat.org/)
+```
+npm install hardhat --save-dev hardhat
+```
 
-### Launch [Frontend](https://nft-marketplace-eight-snowy.vercel.app/)
+### Click [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nft-marketplace-eight-snowy.vercel.app/) to launch frontend
 
 ## Installation
 
